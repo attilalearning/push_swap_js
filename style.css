@@ -1,0 +1,91 @@
+#inputNumbers,
+#resumeOperationsStack,
+#resultingOperationsStack,
+#logArea {
+	width: 700px;
+	height: 100px;
+	margin-bottom: 5px;
+}
+#logArea {
+	height: 500px;
+}
+
+.explanation {
+	font-size: 12px;
+	margin-left: 5px;
+	color: gray;
+}
+
+h1 {
+	width: 700px;
+}
+
+.warning {
+	font-size: 42%;
+	color: gray;
+}
+
+body label {
+	display: flex;
+	align-items: center;
+}
+
+
+#btnPushSwapGo,
+#btnPushSwapReset {
+	margin: 0px 0px 0px 10px;
+	position: relative;
+	top: -5px;
+}
+
+
+#btnInputNumbersInit, #btnInputNumbersClear,
+
+#btnResumeOperationsDoAll,
+#btnResumeOperationsStepByStepFwd,
+#btnResumeOperationsStepByStepBack,
+#btnResumeOperationsClear,
+
+#btnResultingOperationsReset,
+#btnLogStackA, #btnLogStackB, #btnLogAreaClear
+{
+	display: block;
+	margin-bottom: 10px;
+	margin-right: 10px;
+}
+
+
+#btnInputNumbersInit,
+#btnResumeOperationsDoAll,
+#btnResumeOperationsStepByStepFwd,
+#btnResumeOperationsStepByStepBack,
+#btnLogStackA,
+#btnLogStackB
+{
+	float: left;
+}
+#btnResumeOperationsClear,
+#btnInputNumbersClear
+{
+	float: clear;
+}
+
+
+.locked {
+	background-color: lightgray;
+	font-weight: bold;
+}
+
+.float-left {
+	float: left;
+}
+.float-right {
+	float: right;
+}
+.clear-float {
+	float: clear;
+}
+
+.section {
+	display: table;
+}
